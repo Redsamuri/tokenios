@@ -15,7 +15,7 @@ LINE_AUTH_QUERY_PATH = '/api/v4p/rs'
 LINE_AUTH_QUERY_PATH_FIR = '/api/v4/TalkService.do'
 LINE_CERTIFICATE_PATH = '/Q'
 LINE_API_QUERY_PATH_FIR = '/S4'
-UA, LA = ("Line/7.14.0 iPad5,1 10.2.0", 'IOSIPAD\t7.14.0\tiPhone OS\t10.12.0')
+UA, LA = ("Line/5.5.3 WIN10-x64", 'WIN10\t5.5.3\tWindows_OS\t10.5.66.1')
 _session    = requests.session()
 
 def getJson(url, headers=None):
@@ -58,8 +58,8 @@ class qr():
     def get(self):
         client = createTransport(LINE_AUTH_QUERY_PATH_FIR, None, TalkService.Client)
 
-        qr = client.getAuthQrcode(keepLoggedIn=1, systemName="Iphone OS")
-        uri = "line://au/q/" + qr.verifier
+        qr = client.getAuthQrcode(keepLoggedIn=1, systemName="WIN10 OS")
+        uri = "Login : line://au/q/" + qr.verifier
         clb = LineCallback(defaultCallback)
         clb.QrUrl(uri, 1)
         header = {
