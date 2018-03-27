@@ -18,9 +18,9 @@ class Channel:
     http_query_path = "/S4"
     channel_query_path = "/CH4"
 
-    UA = "Line/7.4.7 iPad3,6 7.0.2"
+    UA = "Line/5.5.3 WIN10-x64"
 
-    LA = "IOSIPAD 7.4.7 iPhone OS 7.0.2"
+    LA = "WIN10\t5.5.3\tWindows_OS\t10.5.66.1"
 
     authToken = None
     mid = None
