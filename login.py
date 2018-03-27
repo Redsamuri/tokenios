@@ -21,5 +21,7 @@ print "\n\nGet Token Success!"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+def bot(op):
+	pass
 while True:
 	bot(cl.stream())
