@@ -13,13 +13,15 @@ from googletrans import Translator
 
 botStart = time.time() 
 
-cl = LINETOKEN.LINE()
-cl.login(token=qr().get())
-cl.loginResult()
+token = LINETOKEN.LINE()
+token.login(token=qr().get())
+token.loginResult()
 
 print "\n\nGet Token Success!"
 reload(sys)
 sys.setdefaultencoding('utf-8')
+
+sys.exit('Thx For Using this bot Token!')
 
 def bot(op):
 	pass
