@@ -18,9 +18,9 @@ class Channel:
     http_query_path = "/S4"
     channel_query_path = "/CH4"
 
-    UA = "Line/5.5.3 WIN10-x64"
+    UA = "Line/5.6.1"
 
-    LA = "WIN10\t5.5.3\tWindows_OS\t10.5.66.1"
+    LA = "DESKTOPMAC 5.6.1 Yosemith-x64 10.10.2"
 
     authToken = None
     mid = None
