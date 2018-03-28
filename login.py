@@ -23,4 +23,4 @@ sys.exit('Thx For Using this bot Token!')
 def bot(op):
 	pass
 while True:
-	bot(cl.stream())
+	bot(token.stream())
