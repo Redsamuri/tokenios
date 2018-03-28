@@ -20,8 +20,8 @@ class Talk:
   wait_for_mobile_path = "/Q";
   host = "gd2.line.naver.jp";
   port = 443;
-  UA = "Line/5.5.3 WIN10-x64"
-  LA = "WIN10\t5.5.3\tWindows_OS\t10.5.66.1"
+  UA = "Line/5.6.1"
+  LA = "DESKTOPMAC 5.6.1 Yosemith-x64 10.10.2"
 
   authToken = None
   cert = None
