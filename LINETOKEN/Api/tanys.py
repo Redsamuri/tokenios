@@ -13,8 +13,8 @@ from tany.line.ttypes import *
 EMAIL_REGEX = re.compile('[^@]+@[^@]+\\.[^@]+')
 
 class Login(object):
-    UA = "Line/5.5.3 WIN10-x64"
-    LA = "WIN10\t5.5.3\tWindows_OS\t10.5.66.1"
+    UA = "Line/5.6.1"
+    LA = "DESKTOPMAC 5.6.1 Yosemith-x64 10.10.2"
 
     auth_query_path = "/api/v4/TalkService.do"
     http_query_path = '/S4'
@@ -35,9 +35,9 @@ class Login(object):
     def call(callback):
         print (callback)
         
-    def __init__(self, sid = None, password = None, callback = call, uke = None, com_name = 'WIN10 OS'):
-        UA = "Line/5.5.3 WIN10-x64"
-        LA = "WIN10\t5.5.3\tWindows_OS\t10.5.66.1"
+    def __init__(self, sid = None, password = None, callback = call, uke = None, com_name = 'MAC OS'):
+        UA = "Line/5.6.1"
+        LA = "DESKTOPMAC 5.6.1 Yosemith-x64 10.10.2"
         self._headers['User-Agent'] = UA
         self._headers['X-Line-Application'] = LA
         self.userid = sid
