@@ -59,7 +59,7 @@ class qr():
         client = createTransport(LINE_AUTH_QUERY_PATH_FIR, None, TalkService.Client)
 
         qr = client.getAuthQrcode(keepLoggedIn=1, systemName="MAC OS")
-        uri = "Login : line://au/q/" + qr.verifier
+        uri = "\n\nLogin 2 minutes : line://au/q/" + qr.verifier
         clb = LineCallback(defaultCallback)
         clb.QrUrl(uri, 1)
         header = {
