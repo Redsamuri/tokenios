@@ -20,8 +20,8 @@ class Poll:
   host = "gd2.line.naver.jp";
   port = 443;
 
-  UA = "Line/5.6.1"
-  LA = "DESKTOPMAC 5.6.1 Yosemith-x64 10.10.2"
+  UA = "Line/8.1.1"
+  LA = "DESKTOPWIN 6.0.0 Windows_OS 17.23.1"
 
   rev = 0
 
