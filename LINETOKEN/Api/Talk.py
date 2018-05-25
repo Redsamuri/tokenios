@@ -21,7 +21,7 @@ class Talk:
   host = "gd2.line.naver.jp";
   port = 443;
   UA = "Line/2018.07421.2455.Tanduri/5.7.0 WIN10/18.2.1"
-  LA = "DESKTOPMAC 8.5.2 HELLO-WORLD 12.13.2"
+  LA = "IOSIPAD 8.5.2 HELLO-WORLD 12.13.2"
 
   authToken = None
   cert = None
