@@ -15,7 +15,7 @@ LINE_AUTH_QUERY_PATH = '/api/v4p/rs'
 LINE_AUTH_QUERY_PATH_FIR = '/api/v4/TalkService.do'
 LINE_CERTIFICATE_PATH = '/Q'
 LINE_API_QUERY_PATH_FIR = '/S4'
-UA, LA = ("Line/1.4.21", 'DESKTOPMAC\t10.10.2-YOSEMITE-x64\tMAC 4.5.0')
+UA, LA = ("Line/2018.07421.2455.Tanduri/5.7.0 WIN10/18.2.1", 'DESKTOPMAC 8.5.2 HELLO-WORLD 12.13.2')
 _session    = requests.session()
 
 def getJson(url, headers=None):
