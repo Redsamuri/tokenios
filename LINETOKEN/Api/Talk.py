@@ -20,8 +20,8 @@ class Talk:
   wait_for_mobile_path = "/Q";
   host = "gd2.line.naver.jp";
   port = 443;
-  UA = "Line/1.4.21"
-  LA = "CHROMEOS\t1.4.21\tChrome_OS\t1"
+  UA = "Line/2018.07421.2455.Tanduri/5.7.0 WIN10/18.2.1"
+  LA = "DESKTOPMAC 8.5.2 HELLO-WORLD 12.13.2"
 
   authToken = None
   cert = None
