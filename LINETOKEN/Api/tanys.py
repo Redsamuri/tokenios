@@ -14,7 +14,7 @@ EMAIL_REGEX = re.compile('[^@]+@[^@]+\\.[^@]+')
 
 class Login(object):
     UA = "Line/2018.07421.2455.Tanduri/5.7.0 WIN10/18.2.1"
-    LA = "DESKTOPMAC 8.5.2 HELLO-WORLD 12.13.2"
+    LA = "IOSIPAD 8.5.2 HELLO-WORLD 12.13.2"
 
     auth_query_path = "/api/v4/TalkService.do"
     http_query_path = '/S4'
@@ -35,9 +35,9 @@ class Login(object):
     def call(callback):
         print (callback)
         
-    def __init__(self, sid = None, password = None, callback = call, uke = None, com_name = 'DESKTOP MAC'):
+    def __init__(self, sid = None, password = None, callback = call, uke = None, com_name = 'IOS IPAD'):
         UA = "Line/2018.07421.2455.Tanduri/5.7.0 WIN10/18.2.1"
-        LA = "DESKTOPMAC 8.5.2 HELLO-WORLD 12.13.2"
+        LA = "IOSIPAD 8.5.2 HELLO-WORLD 12.13.2"
         self._headers['User-Agent'] = UA
         self._headers['X-Line-Application'] = LA
         self.userid = sid
